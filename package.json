@@ -1,11 +1,12 @@
 {
   "name": "amazfish-node",
+  "type": "module",
   "version": "0.0.1",
   "description": "analize the amazfish sleep db",
   "main": "index.js",
   "scripts": {
-    "index": "node index.js",
-    "tsc": "npx tsc *.ts && node index.js"
+    "index": "node bin/index.js",
+    "tsc": "npx tsc && node bin/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "typescript": "^4.1.5"
   },
   "devDependencies": {
-    "@types/node": "^14.14.31"
+    "@types/node": "^14.14.31",
+    "@types/sqlite3": "^3.1.7"
   }
 }

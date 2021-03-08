@@ -5,10 +5,10 @@
  * (** amazfish patched with https://github.com/b100dian/harbour-amazfish/tree/sleep)
  */
 
-import { processEntry as processAmazfishSleep } from "./src/amazfish-sleep-branch";
+import { processEntry as processAmazfishSleep } from "./src/amazfish-sleep-branch.js";
+import sqlite3 from "sqlite3"
 
-let sqlite3 = require('sqlite3'),
-    start_dt = '2021-02-13T12:00',
+let start_dt = '2021-02-13T12:00',
     end_dt = '2021-02-21T12:00';
 
 const febDay14_21Results = {

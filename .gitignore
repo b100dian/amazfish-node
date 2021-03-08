@@ -1,6 +1,4 @@
 
 *~
 node_modules/
-
-# this is a typescript project 
-*.js
+bin/
